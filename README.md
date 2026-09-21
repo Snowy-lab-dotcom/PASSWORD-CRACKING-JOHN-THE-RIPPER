@@ -58,7 +58,7 @@ The protected PDF was then available inside the Windows 10 virtual machine.
 
 ---
 
-# 🔒 Protected PDF
+## 🔒 Protected PDF
 
 The target file used for the practical exercise was:
 
@@ -75,7 +75,7 @@ This screenshot demonstrates that the PDF was password protected before performi
 
 ---
 
-# 🔑 Convert PDF to make Hash Extraction
+## 🔑 Convert PDF to make Hash Extraction
 
 The protected PDF was processed to obtain the password hash required by John the Ripper.
 
@@ -90,7 +90,7 @@ hash1.txt
 
 The hash file was then used as the input for John the Ripper.
 
-# 📄 Creating `hash1.txt`
+## 📄 Creating `hash1.txt`
 
 The extracted hash was copied into a text file named:
 
@@ -108,7 +108,7 @@ The screenshot should show that the hash was saved successfully.
 
 ---
 
-# 💻 John the Ripper
+## 💻 John the Ripper
 
 John the Ripper was opened from its `run` directory.
 
@@ -126,7 +126,7 @@ The installation was verified before starting the password-recovery process.
 
 ---
 
-# 🖥️ Johnny GUI
+## 🖥️ Johnny GUI
 
 Johnny was also used to perform the same password-recovery process through a graphical interface.
 
@@ -148,7 +148,7 @@ A new attack was started from the Johnny interface.
 
 ---
 
-# ✅ Password Recovery
+## ✅ Password Recovery
 
 John the Ripper/Johnny successfully recovered the password for the protected PDF.
 
@@ -160,7 +160,7 @@ The recovered password was then used to open the original PDF file.
 
 ---
 
-# 📖 Password Verification
+### 📖 Password Verification
 
 The recovered password was entered into the protected PDF.
 
@@ -172,7 +172,7 @@ The PDF successfully opened, confirming that the recovered password was correct.
 
 ---
 
-### ⚠️ Problems Encountered & Solutions
+## ⚠️ Problems Encountered & Solutions
 The My Locked PDF1.pdf file was stored in the Downloads folder on the host Windows machine, but it needed to be transferred into the Windows 10 virtual machine to complete the password-cracking assignment.
 
 Initially, the file was not accessible from inside the Windows 10 VM.
@@ -211,7 +211,7 @@ The file was successfully transferred from the host Windows machine to the Windo
 
 ---
 
-# 🧠 What I Learned
+## 🧠 What I Learned
 
 Through this project, I gained practical experience with:
 
@@ -226,7 +226,7 @@ Through this project, I gained practical experience with:
 
 ---
 
-# 🔐 Ethical Considerations
+## 🔐 Ethical Considerations
 
 This project was completed in an **authorized educational cybersecurity lab environment**.
 
@@ -235,20 +235,22 @@ Password-cracking tools should only be used against systems, files, and accounts
 The purpose of this project was to understand password security and demonstrate how weak passwords can potentially be recovered using password-auditing techniques.
 
 ---
-
-## 👩🏽‍💻 Author
-
-**Malehloa Seroke**
-
-Cybersecurity | IT Software Development
-
-📍 South Africa
-
----
-
 ## ⚖️ Disclaimer
 
 This repository is for **educational and cybersecurity training purposes only**.
 
 All activities were performed in an authorized lab environment.
+---
+
+## 👩🏽‍💻 Author
+
+Malehloa Seroke Cybersecurity Professional B082
+
+LinkedIn: [www.linkedin.com/in/malehloa-seroke]
+
+## 📌 Project Information
+Program Name: Cybersecurity at Networkwalks | Week: 02 | Project: WK2-PM1-Footprinting-Reconnaissance-with-Kali-Linux | Repository: GitHub
+
+---
+
 
