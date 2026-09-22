@@ -39,6 +39,8 @@ The main objectives of this project were to:
 | Virtual Machine        | Windows 10                             |
 | Password Cracking Tool | John the Ripper                        |
 | GUI Tool               | Johnny                                 |
+| PDF Hash Extractor	   | Online tool used to extract the hash from the protected PDF for John the Ripper|
+| Website	               | OnlineHashCrack PDF Hash Extractor     |
 | Target File            | `My Locked PDF1.pdf`                   |
 | Hash File              | `hash1.txt`                            |
 
@@ -77,13 +79,15 @@ This screenshot demonstrates that the PDF was password protected before performi
 
 ## 🔑 Convert PDF to make Hash Extraction
 
-The protected PDF was processed to obtain the password hash required by John the Ripper.
+The protected PDF was uploaded to the OnlineHashCrack PDF Hash Extractor to extract the password hash required by John the Ripper.
 
-The extracted hash was saved in:
+The extracted hash was then copied into a text file and saved as:
 
 ```text
 hash1.txt
 ```
+The hash1.txt file was later loaded into John the Ripper for password cracking.
+
 ### 📸  Extracted Hash Text
 
 <img width="861" height="347" alt="image" src="https://github.com/user-attachments/assets/64264904-e3f8-43c1-b604-38d3cb80ab3d" />
@@ -130,7 +134,7 @@ The installation was verified before starting the password-recovery process.
 
 Johnny was also used to perform the same password-recovery process through a graphical interface.
 
-The John executable was configured in Johnny before starting the attack.
+The John executable was configured in Johnny before starting the attack and the hash.txt was uploaded.
 
 ### 📸 Johnny Hash File
 
@@ -223,7 +227,6 @@ Through this project, I gained practical experience with:
 * Using VirtualBox Shared Folders.
 * Verifying password-recovery results.
 * Understanding the importance of strong passwords.
-
 ---
 
 ## 🔐 Ethical Considerations
@@ -244,12 +247,12 @@ All activities were performed in an authorized lab environment.
 
 ## 👩🏽‍💻 Author
 
-Malehloa Seroke Cybersecurity Professional B082
+**Malehloa Seroke Cybersecurity Professional B082**
 
 LinkedIn: [www.linkedin.com/in/malehloa-seroke]
 
 ## 📌 Project Information
-Program Name: Cybersecurity at Networkwalks | Week: 02 | Project: WK2-PM1-Footprinting-Reconnaissance-with-Kali-Linux | Repository: GitHub
+Program Name: Cybersecurity at Networkwalks | Week: 03 | Project: WK3-PM1-Footprinting-Reconnaissance-with-Kali-Linux | Repository: GitHub
 
 ---
 
