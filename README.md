@@ -1,3 +1,5 @@
+<div align=center>
+  
 # 🔐 PASSWORD-CRACKING-JOHN-THE-RIPPER (JTR)
 
 ![Cybersecurity](https://img.shields.io/badge/Field-Cybersecurity-red)
@@ -5,6 +7,10 @@
 ![Tool](https://img.shields.io/badge/GUI-Johnny-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010-lightgrey)
 ![Lab](https://img.shields.io/badge/Lab-Educational-orange)
+
+</div>
+
+---
 
 ## 📌 Project Overview
 
